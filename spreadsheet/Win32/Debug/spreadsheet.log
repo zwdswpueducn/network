@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016-07-17 22:54:08。
+     1>项目“H:\QTlearn\spreadsheet\spreadsheet.vcxproj”在节点 2 上(build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(298,5): warning MSB8004: Intermediate 目录未以斜杠结尾。此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Intermediate 目录。
+     1>InitializeBuildStatus:
+         正在创建“Win32\Debug\spreadsheet.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       CustomBuild:
+         所有输出均为最新。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Qt\4.8.6\include\QtCore /IC:\Qt\4.8.6\include\QtGui /IC:\Qt\4.8.6\include /IC:\Qt\4.8.6\include\ActiveQt /Idebug /I. /IC:\Qt\4.8.6\mkspecs\default /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_GUI_LIB /D QT_CORE_LIB /D QT_HAVE_MMX /D QT_HAVE_3DNOW /D QT_HAVE_SSE /D QT_HAVE_MMXEXT /D QT_HAVE_SSE2 /D QT_THREAD_SUPPORT /Gm- /EHsc /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mainwindow.cpp -Zm200 -w34100 -w34189 
+         mainwindow.cpp
+         所有输出均为最新。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\spreadsheet.exe" /NOLOGO /LIBPATH:C:\Qt\4.8.6\lib /LIBPATH:C:\Qt\4.8.6\lib C:\Qt\4.8.6\lib\qtmaind.lib C:\Qt\4.8.6\lib\QtGuid.lib C:\Qt\4.8.6\lib\QtCored.lib gdi32.lib comdlg32.lib oleaut32.lib imm32.lib winmm.lib winspool.lib ws2_32.lib ole32.lib user32.lib advapi32.lib msimg32.lib shell32.lib C:\Qt\4.8.6\lib\QtCored.lib kernel32.lib uuid.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\spreadsheet.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"H:\QTlearn\spreadsheet\debug\spreadsheet.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\cell.obj
+         Win32\Debug\moc_finddialog.obj
+         Win32\Debug\moc_gotocelldialog.obj
+         Win32\Debug\moc_mainwindow.obj
+         Win32\Debug\moc_qcustomplot.obj
+         Win32\Debug\moc_sortdialog.obj
+         Win32\Debug\moc_spreadsheet.obj
+         Win32\Debug\finddialog.obj
+         Win32\Debug\qrc_spreadsheet.obj
+         Win32\Debug\gotocelldialog.obj
+         Win32\Debug\main.obj
+         Win32\Debug\mainwindow.obj
+         Win32\Debug\qcustomplot.obj
+         Win32\Debug\sortdialog.obj
+         Win32\Debug\spreadsheet.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : 没有找到 debug\\spreadsheet.exe 或上一个增量链接没有生成它；正在执行完全链接
+         spreadsheet.vcxproj -> H:\QTlearn\spreadsheet\debug\spreadsheet.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\spreadsheet.exe;#1" /manifest Win32\Debug\spreadsheet.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Win32\Debug\spreadsheet.unsuccessfulbuild”。
+         正在对“Win32\Debug\spreadsheet.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“H:\QTlearn\spreadsheet\spreadsheet.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:09.07
